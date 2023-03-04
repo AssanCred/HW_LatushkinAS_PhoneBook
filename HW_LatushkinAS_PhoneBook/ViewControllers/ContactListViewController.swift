@@ -7,7 +7,7 @@
 
 import UIKit
 
-class PersonListViewController: UITableViewController {
+class ContactListViewController: UITableViewController {
     
     var persons: [Person] = []
     
@@ -20,7 +20,7 @@ class PersonListViewController: UITableViewController {
 }
 
 // MARK: - UITableViewDataSorse
-extension PersonListViewController {
+extension ContactListViewController {
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         persons.count
     }
@@ -30,8 +30,7 @@ extension PersonListViewController {
         var content = cell.defaultContentConfiguration()
         let contact = persons[indexPath.row]
         
-        content.text = contact.name
-        content.secondaryText = contact.surname
+        content.text = contact.fullName
         cell.contentConfiguration = content
         
         return cell

@@ -12,13 +12,16 @@ class TabBarViewController: UITabBarController {
     override func viewDidLoad() {
         super.viewDidLoad()
         passingViewController()
-        navigationItem.title = "Personal List"
+        navigationItem.title = "Contact List"
     }
     
     private func passingViewController() {
         let persons = Person.getInfoAboutPerson()
-        guard let personListVC = viewControllers?.first as? PersonListViewController else { return }
-        personListVC.persons = persons
+        guard let contactListVC = viewControllers?.first as? ContactListViewController else { return }
+        contactListVC.persons = persons
+        guard let contactListWithInfoVC = viewControllers?.last as? ContactListWithInfoViewController else { return }
+        contactListWithInfoVC.persons = persons
+        
         
     }
 }
