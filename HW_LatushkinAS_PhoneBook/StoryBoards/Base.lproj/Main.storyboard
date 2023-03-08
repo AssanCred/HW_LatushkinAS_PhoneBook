@@ -107,19 +107,19 @@
             </objects>
             <point key="canvasLocation" x="505" y="-73"/>
         </scene>
-        <!--Tab Bar View Controller-->
+        <!--Contact List-->
         <scene sceneID="p9O-og-1hk">
             <objects>
                 <tabBarController id="Clx-Gj-BCP" customClass="TabBarViewController" customModule="HW_LatushkinAS_PhoneBook" customModuleProvider="target" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="1jX-JE-Z7y"/>
+                    <navigationItem key="navigationItem" title="Contact List" id="1jX-JE-Z7y"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="puI-if-gbM">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
-                        <segue destination="0Tj-qB-paM" kind="relationship" relationship="viewControllers" id="r1B-mT-N5w"/>
-                        <segue destination="1S5-Bn-UqO" kind="relationship" relationship="viewControllers" id="2Df-GD-Dfu"/>
+                        <segue destination="0Tj-qB-paM" kind="relationship" relationship="viewControllers" id="msr-dz-xRq"/>
+                        <segue destination="1S5-Bn-UqO" kind="relationship" relationship="viewControllers" id="i82-No-mC3"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ueY-w6-auj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -129,7 +129,7 @@
         <!--Contacts-->
         <scene sceneID="j85-A5-3ax">
             <objects>
-                <tableViewController id="1S5-Bn-UqO" customClass="ContactListWithInfoViewController" sceneMemberID="viewController">
+                <tableViewController id="1S5-Bn-UqO" customClass="ContactListViewController" customModule="HW_LatushkinAS_PhoneBook" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="baP-xt-hEQ">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -150,6 +150,7 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Contacts" image="person.fill" catalog="system" id="Kfb-8v-2N6"/>
+                    <navigationItem key="navigationItem" id="uxv-Rf-EKV"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X2W-U1-f0n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

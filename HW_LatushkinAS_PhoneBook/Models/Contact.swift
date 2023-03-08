@@ -15,15 +15,22 @@ struct Person {
         "\(name) \(surname)"
     }
     
-    static func getInfoAboutPerson() -> [Person] {
+    static func getInfoAboutPersons() -> [Person] {
         var persons: [Person] = []
         
-        let names = DataStore.names.shuffled()
-        let surnames = DataStore.surnames.shuffled()
-        let emails = DataStore.email.shuffled()
-        let phones = DataStore.phone.shuffled()
+        let names = DataStore.shared.names.shuffled()
+        let surnames = DataStore.shared.surnames.shuffled()
+        let emails = DataStore.shared.email.shuffled()
+        let phones = DataStore.shared.phone.shuffled()
         
-        for index in 0..<names.count {
+        let interactionCount = min(
+            names.count,
+            surnames.count,
+            emails.count,
+            phones.count
+        )
+        
+        for index in 0..<interactionCount {
             let person = Person(
                 name: names[index],
                 surname: surnames[index],
@@ -36,4 +43,9 @@ struct Person {
         }
         return persons
     }
+}
+
+enum Contacts: String {
+    case phone = "phone"
+    case email = "tray"
 }

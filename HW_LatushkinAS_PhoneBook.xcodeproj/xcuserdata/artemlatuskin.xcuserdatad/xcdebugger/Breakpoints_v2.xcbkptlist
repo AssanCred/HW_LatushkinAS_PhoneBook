@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "63B7659F-388B-44A8-9B36-ED67846B75C9"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "82BC4BDE-10CF-4DE8-859E-0B2B47AC5359"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HW_LatushkinAS_PhoneBook/ViewControllers/ContactListWithInfoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ContactListWithInfoViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "82BC4BDE-10CF-4DE8-859E-0B2B47AC5359 - d198ede6095cc38a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW_LatushkinAS_PhoneBook.ContactListWithInfoViewController.persons.getter : Swift.Array&lt;HW_LatushkinAS_PhoneBook.Person&gt;"
+                  moduleName = "HW_LatushkinAS_PhoneBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemlatuskin/Documents/Swift/Lesson_2_11/HW_LatushkinAS_PhoneBook/HW_LatushkinAS_PhoneBook/ViewControllers/ContactListWithInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "82BC4BDE-10CF-4DE8-859E-0B2B47AC5359 - 34197ec6bacae386"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW_LatushkinAS_PhoneBook.ContactListWithInfoViewController.persons.setter : Swift.Array&lt;HW_LatushkinAS_PhoneBook.Person&gt;"
+                  moduleName = "HW_LatushkinAS_PhoneBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemlatuskin/Documents/Swift/Lesson_2_11/HW_LatushkinAS_PhoneBook/HW_LatushkinAS_PhoneBook/ViewControllers/ContactListWithInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "82BC4BDE-10CF-4DE8-859E-0B2B47AC5359 - aacb65bc4be53b95"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW_LatushkinAS_PhoneBook.ContactListWithInfoViewController.persons.modify : Swift.Array&lt;HW_LatushkinAS_PhoneBook.Person&gt;"
+                  moduleName = "HW_LatushkinAS_PhoneBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemlatuskin/Documents/Swift/Lesson_2_11/HW_LatushkinAS_PhoneBook/HW_LatushkinAS_PhoneBook/ViewControllers/ContactListWithInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "82BC4BDE-10CF-4DE8-859E-0B2B47AC5359 - d8bde53a7124fdc2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW_LatushkinAS_PhoneBook.ContactListWithInfoViewController.persons.modify : Swift.Array&lt;HW_LatushkinAS_PhoneBook.Person&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "HW_LatushkinAS_PhoneBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemlatuskin/Documents/Swift/Lesson_2_11/HW_LatushkinAS_PhoneBook/HW_LatushkinAS_PhoneBook/ViewControllers/ContactListWithInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "82BC4BDE-10CF-4DE8-859E-0B2B47AC5359 - d640d527f60b6758"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW_LatushkinAS_PhoneBook.ContactListWithInfoViewController.init(style: __C.UITableViewStyle) -&gt; HW_LatushkinAS_PhoneBook.ContactListWithInfoViewController"
+                  moduleName = "HW_LatushkinAS_PhoneBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemlatuskin/Documents/Swift/Lesson_2_11/HW_LatushkinAS_PhoneBook/HW_LatushkinAS_PhoneBook/ViewControllers/ContactListWithInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "82BC4BDE-10CF-4DE8-859E-0B2B47AC5359 - 5f4402dc723ef316"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW_LatushkinAS_PhoneBook.ContactListWithInfoViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; HW_LatushkinAS_PhoneBook.ContactListWithInfoViewController"
+                  moduleName = "HW_LatushkinAS_PhoneBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemlatuskin/Documents/Swift/Lesson_2_11/HW_LatushkinAS_PhoneBook/HW_LatushkinAS_PhoneBook/ViewControllers/ContactListWithInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "82BC4BDE-10CF-4DE8-859E-0B2B47AC5359 - 4ea814db614c8454"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW_LatushkinAS_PhoneBook.ContactListWithInfoViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;HW_LatushkinAS_PhoneBook.ContactListWithInfoViewController&gt;"
+                  moduleName = "HW_LatushkinAS_PhoneBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemlatuskin/Documents/Swift/Lesson_2_11/HW_LatushkinAS_PhoneBook/HW_LatushkinAS_PhoneBook/ViewControllers/ContactListWithInfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "39BB7244-561C-4E20-9560-95ED0AB934DA"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HW_LatushkinAS_PhoneBook/ViewControllers/ContactListWithInfoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ContactListWithInfoViewController"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97FAAD32-989C-40B8-A73B-C38E0CFAE3E3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HW_LatushkinAS_PhoneBook/ViewControllers/InfoViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ContactListViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "97FAAD32-989C-40B8-A73B-C38E0CFAE3E3 - 6757628b94282935"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW_LatushkinAS_PhoneBook.ContactListViewController.persons.getter : Swift.Array&lt;HW_LatushkinAS_PhoneBook.Person&gt;"
+                  moduleName = "HW_LatushkinAS_PhoneBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemlatuskin/Documents/Swift/Lesson_2_11/HW_LatushkinAS_PhoneBook/HW_LatushkinAS_PhoneBook/ViewControllers/InfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "97FAAD32-989C-40B8-A73B-C38E0CFAE3E3 - 985b481360861921"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW_LatushkinAS_PhoneBook.ContactListViewController.persons.setter : Swift.Array&lt;HW_LatushkinAS_PhoneBook.Person&gt;"
+                  moduleName = "HW_LatushkinAS_PhoneBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemlatuskin/Documents/Swift/Lesson_2_11/HW_LatushkinAS_PhoneBook/HW_LatushkinAS_PhoneBook/ViewControllers/InfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "112">
+               </Location>
+               <Location
+                  uuid = "97FAAD32-989C-40B8-A73B-C38E0CFAE3E3 - 64a805f855aa536"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW_LatushkinAS_PhoneBook.ContactListViewController.persons.modify : Swift.Array&lt;HW_LatushkinAS_PhoneBook.Person&gt;"
+                  moduleName = "HW_LatushkinAS_PhoneBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemlatuskin/Documents/Swift/Lesson_2_11/HW_LatushkinAS_PhoneBook/HW_LatushkinAS_PhoneBook/ViewControllers/InfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "97FAAD32-989C-40B8-A73B-C38E0CFAE3E3 - 942033a13f734a61"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW_LatushkinAS_PhoneBook.ContactListViewController.persons.modify : Swift.Array&lt;HW_LatushkinAS_PhoneBook.Person&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "HW_LatushkinAS_PhoneBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemlatuskin/Documents/Swift/Lesson_2_11/HW_LatushkinAS_PhoneBook/HW_LatushkinAS_PhoneBook/ViewControllers/InfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "97FAAD32-989C-40B8-A73B-C38E0CFAE3E3 - 202fe84c87379c68"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW_LatushkinAS_PhoneBook.ContactListViewController.init(style: __C.UITableViewStyle) -&gt; HW_LatushkinAS_PhoneBook.ContactListViewController"
+                  moduleName = "HW_LatushkinAS_PhoneBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemlatuskin/Documents/Swift/Lesson_2_11/HW_LatushkinAS_PhoneBook/HW_LatushkinAS_PhoneBook/ViewControllers/InfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "97FAAD32-989C-40B8-A73B-C38E0CFAE3E3 - 8d455788c41c416"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW_LatushkinAS_PhoneBook.ContactListViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; HW_LatushkinAS_PhoneBook.ContactListViewController"
+                  moduleName = "HW_LatushkinAS_PhoneBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemlatuskin/Documents/Swift/Lesson_2_11/HW_LatushkinAS_PhoneBook/HW_LatushkinAS_PhoneBook/ViewControllers/InfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "97FAAD32-989C-40B8-A73B-C38E0CFAE3E3 - b7275a0eb4cbfc6f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HW_LatushkinAS_PhoneBook.ContactListViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;HW_LatushkinAS_PhoneBook.ContactListViewController&gt;"
+                  moduleName = "HW_LatushkinAS_PhoneBook"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/artemlatuskin/Documents/Swift/Lesson_2_11/HW_LatushkinAS_PhoneBook/HW_LatushkinAS_PhoneBook/ViewControllers/InfoViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "68">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4670D9CC-BFC4-4C3E-AA79-BB9977DDB619"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HW_LatushkinAS_PhoneBook/ViewControllers/TabBarViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "passingViewController()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "06EB2A3B-E817-487B-97AF-6F50B0E8BF9A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HW_LatushkinAS_PhoneBook/ViewControllers/TabBarViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "passingViewController()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

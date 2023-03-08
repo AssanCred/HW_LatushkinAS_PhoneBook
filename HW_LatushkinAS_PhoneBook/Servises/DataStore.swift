@@ -5,8 +5,11 @@
 //  Created by Артём Латушкин on 04.03.2023.
 //
 
-class DataStore {
-    static let names = [
+final class DataStore {
+    
+static let shared = DataStore()
+    
+    let names = [
         "Савелий",
         "Петр",
         "Аристотель",
@@ -16,7 +19,7 @@ class DataStore {
         "Павел",
         "Леонид"
     ]
-    static let surnames = [
+    let surnames = [
         "Журавлёв",
         "Николаев",
         "Крылов",
@@ -26,7 +29,7 @@ class DataStore {
         "Власов",
         "Гаврилов"
     ]
-    static let phone = [
+    let phone = [
         "980323452",
         "345256345",
         "343543643",
@@ -36,7 +39,7 @@ class DataStore {
         "4554676574",
         "435476586786"
     ]
-    static let email = [
+    let email = [
         "dsdsfdfsd@gmail.com",
         "dsfewhyth@gmail.com",
         "daufdrre@gg.ru",
@@ -46,4 +49,5 @@ class DataStore {
         "dsfynncsd@trcs.rn",
         "edhcd@tbd.rt"
     ]
+    private init() {}
 }

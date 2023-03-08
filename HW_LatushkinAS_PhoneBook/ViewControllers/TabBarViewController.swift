@@ -7,21 +7,19 @@
 
 import UIKit
 
-class TabBarViewController: UITabBarController {
+final class TabBarViewController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
         passingViewController()
-        navigationItem.title = "Contact List"
     }
     
     private func passingViewController() {
-        let persons = Person.getInfoAboutPerson()
         guard let contactListVC = viewControllers?.first as? ContactListViewController else { return }
-        contactListVC.persons = persons
         guard let contactListWithInfoVC = viewControllers?.last as? ContactListWithInfoViewController else { return }
+        
+        let persons = Person.getInfoAboutPersons()
+        contactListVC.persons = persons
         contactListWithInfoVC.persons = persons
-        
-        
     }
 }

@@ -16,8 +16,8 @@
 		88C5880029B333E90042EF98 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C587FF29B333E90042EF98 /* Contact.swift */; };
 		88C5880229B3787D0042EF98 /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C5880129B3787D0042EF98 /* ContactListViewController.swift */; };
 		88C5880429B379AF0042EF98 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C5880329B379AF0042EF98 /* TabBarViewController.swift */; };
-		88C5880629B3AFC10042EF98 /* ContactInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C5880529B3AFC10042EF98 /* ContactInfoViewController.swift */; };
 		88C5880829B3BBDE0042EF98 /* ContactListWithInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88C5880729B3BBDE0042EF98 /* ContactListWithInfoViewController.swift */; };
+		88E288E729B867DE00E06E3B /* ContactInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E288E629B867DE00E06E3B /* ContactInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +32,8 @@
 		88C587FF29B333E90042EF98 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		88C5880129B3787D0042EF98 /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
 		88C5880329B379AF0042EF98 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
-		88C5880529B3AFC10042EF98 /* ContactInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoViewController.swift; sourceTree = "<group>"; };
 		88C5880729B3BBDE0042EF98 /* ContactListWithInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListWithInfoViewController.swift; sourceTree = "<group>"; };
+		88E288E629B867DE00E06E3B /* ContactInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +109,7 @@
 				88C5880329B379AF0042EF98 /* TabBarViewController.swift */,
 				88C5880129B3787D0042EF98 /* ContactListViewController.swift */,
 				88C5880729B3BBDE0042EF98 /* ContactListWithInfoViewController.swift */,
-				88C5880529B3AFC10042EF98 /* ContactInfoViewController.swift */,
+				88E288E629B867DE00E06E3B /* ContactInfoViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -197,10 +197,10 @@
 				88C5880829B3BBDE0042EF98 /* ContactListWithInfoViewController.swift in Sources */,
 				8897BF4C29B0AA2000B97440 /* AppDelegate.swift in Sources */,
 				88C587FD29B333810042EF98 /* DataStore.swift in Sources */,
-				88C5880629B3AFC10042EF98 /* ContactInfoViewController.swift in Sources */,
 				88C5880029B333E90042EF98 /* Contact.swift in Sources */,
 				88C5880429B379AF0042EF98 /* TabBarViewController.swift in Sources */,
 				8897BF4E29B0AA2000B97440 /* SceneDelegate.swift in Sources */,
+				88E288E729B867DE00E06E3B /* ContactInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

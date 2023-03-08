@@ -2,12 +2,12 @@
 //  ContactInfoViewController.swift
 //  HW_LatushkinAS_PhoneBook
 //
-//  Created by Артём Латушкин on 04.03.2023.
+//  Created by Артём Латушкин on 08.03.2023.
 //
 
 import UIKit
 
-class ContactInfoViewController: UIViewController {
+final class ContactInfoViewController: UIViewController {
     
     @IBOutlet var phoneLabel: UILabel!
     @IBOutlet var emailLabel: UILabel!
@@ -16,7 +16,7 @@ class ContactInfoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = persone.fullName
+        title = persone.fullName
         phoneLabel.text = persone.phone
         emailLabel.text = persone.email
     }
